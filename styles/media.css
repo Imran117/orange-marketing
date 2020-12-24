@@ -1,0 +1,28 @@
+@media(max-width:1200px){
+    .blocks{
+        justify-content: space-around;
+    }
+    .item{
+        margin-bottom: 25px;
+    }
+}
+@media(max-width:992px){}
+@media(max-width:768px){
+    .nav_content{
+        flex-direction: column;
+    }
+    .logo{
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+}
+@media(max-width:576px){
+    .header_list{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .header_link{
+        margin: 10px 15px;
+        display: block;
+    }
+}
